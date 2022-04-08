@@ -1,7 +1,7 @@
 resource "aws_instance" "my_instance" {
   ami           = "ami-033a6a056910d1137"
   instance_type = "t2.micro"
-  subnet_id = "subnet-022ab1d3507ad2960"
+  subnet_id = "subnet-0745b6a789bb98399"
 
   tags = {
     Name = "New Host",
